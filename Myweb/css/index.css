@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body{
+	background-color: #FF9224;
+	background: linear-gradient(to right, #FF1235, #FF9224);
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.martop{
+	margin-top: 10%;
+}
+
+p{
+	font-size: 2em;
+	padding-top: 10px;
+}
+
