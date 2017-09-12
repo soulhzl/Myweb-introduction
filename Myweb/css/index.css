@@ -7,10 +7,12 @@ body{
 	overflow-y: hidden;
 }
 
+/*上外边距*/
 .martop{
 	margin-top: 10%;
 }
 
+/*正文字体*/
 p{
 	font-size: 2em;
 	padding-top: 10px;
