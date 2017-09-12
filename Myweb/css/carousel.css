@@ -40,7 +40,6 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -72,17 +71,17 @@ body {
 .marketing h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
+/*.marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
-}
+}*/
 
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -138,5 +137,27 @@ body {
   font-size: 24px;
 }
 
+.padding-big{
+  padding: 10px;
+}
 
+.pd80{
+  padding: 80px 80px 0 80px;
+}
+
+.first-bg{ 
+  padding: 80px;
+  background-color: #80FFFF;
+  background: linear-gradient(to right, #9AFF02, #80FFFF);
+}
+
+.second-bg{
+  padding: 80px;
+  background-color: #FF8040;
+  background: linear-gradient(to right, #F9F900, #FF8040);
+}
+
+.wauto{
+  width: auto;
+}
 
