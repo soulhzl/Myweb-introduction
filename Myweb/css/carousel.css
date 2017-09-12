@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
   color: #5a5a5a;
 }
 
@@ -142,7 +141,7 @@ body {
 }
 
 .pd80{
-  padding: 80px 80px 0 80px;
+  padding: 60px 80px 40px 80px;
 }
 
 .first-bg{ 
@@ -159,5 +158,11 @@ body {
 
 .wauto{
   width: auto;
+   background-color: #C07AB8;
+   background: linear-gradient(to right, #C7C7E2, #C07AB8);
+}
+
+.navbar-blue{
+  background-color: #84C1FF;
 }
 
