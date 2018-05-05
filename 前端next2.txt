@@ -1,0 +1,51 @@
+第一天
+Node.js 内容：https://sfantasy.gitbooks.io/node-in-action/content/zh/appendix/basic.html
+
+Node.js 概述：http://javascript.ruanyifeng.com/nodejs/basic.html
+
+第二天
+常用的前端设计模式，让你写出更优雅的代码：https://juejin.im/entry/5ab1f181f265da23a141c6c3
+
+从node.js模块化开发来了解javascript闭包：https://juejin.im/entry/5ab8a869518825556141424d
+
+第三天
+React入门级小白指北及常见问题解答：https://zhuanlan.zhihu.com/p/35091010
+
+node是如何实现文件系统的？: https://www.zhihu.com/question/63296357/answer/350624409
+
+Node.js Stream(流): https://juejin.im/post/5ab8e6b96fb9a028df229ecc
+
+第四天
+从零开始写一个Javascript解析器：https://cnodejs.org/topic/5aa2a128ce4a27f867526f7e
+ 
+基于 Node.js 实现压缩和解压缩：https://cnodejs.org/topic/5a964e7d8d6e16e56bb809d2
+
+第五天
+《Node.js 调试指南》开源书籍发布：https://cnodejs.org/topic/5a9661ff71327bb413bbff5b
+
+一个 Node.js+mongoDB+Vue.js 的博客内容管理系统：https://ycwalker.com/2016/09/03/blog-cms/
+
+第六天
+2018web前端面试总结：https://juejin.im/post/59ec3d50f265da431c6f7339 
+
+前端大神成长历程：https://github.com/qiu-deqing/FE-learning
+
+网站性能优化：https://zhuanlan.zhihu.com/p/35224473
+
+
+不知道聪明的你学习得怎么样了呢？如果觉得有些难度的话，不妨来看看下面这个《Node.js 命令行程序开发教程》吧~
+http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
+
+
+Module 的语法
+http://es6.ruanyifeng.com/#docs/module
+
+JavaScript ES6模块指南
+https://segmentfault.com/a/1190000004100661
+
+IIFE by Ben Alman
+http://benalman.com/news/2010/11/immediately-invoked-function-expression/#iife
+
+
+立即调用的函数表达式（IIFE）- 阮一峰
+http://javascript.ruanyifeng.com/grammar/function.html#toc23
