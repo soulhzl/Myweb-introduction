@@ -1,0 +1,42 @@
+@charset 'utf-8';
+.first-page,
+.second-page,
+.third-page,
+.fourth-page{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to right, #F9F900, #80FFFF);
+}
+
+p{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.first-page .first-page-message{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.first-page .first-page-message > div > .myself{
+	width: 101px;
+	height: 150px;
+}
+
+.first-page .first-page-message > div > .code{
+	width: 140px;
+	height: 140px;
+}
+
+.first-page .first-page-message > div > img{
+	margin-bottom: 30px;
+}
+
+.second-page > div > p,
+.third-page > div > p,
+.fourth-page > div > p{
+	font-size: 20px;
+}
