@@ -7,7 +7,9 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(to right, #F9F900, #80FFFF);
+	background-image: url('../image/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 p{
@@ -42,8 +44,88 @@ p{
 }
 
 .fourth-page a{
-	display: block;
+	display: none;
 	text-decoration: none;
 	font-size: 20px;
+	color: black;
 }
+
+.fourth-page a:hover{
+	color: red;
+}
+
+#menu{ 
+	position: fixed;
+	top: 50%; 
+	transform: translateY(-50%);
+}  
+
+#menu.right{ 
+	right: 10px;
+}  
+
+#menu ul{
+	list-style-type: none;
+}
+
+#menu ul li{ 
+	width: 30px; 
+	height: 30px; 
+	background-image: url('../image/anchor-down.png'); 
+	background-size: 100%;
+	margin:10px; 
+	border-radius: 10px;
+}  
+
+#menu ul li a{ 
+	display: block;
+	width: 100%;
+	height: 100%;
+	}
+
+#menu ul li.active{ 
+	background-image: url('../image/anchor-light.png');
+	background-size: 100%;
+}
+
+.animation-first,
+.animation-second,
+.animation-third,
+.animation-fourth{
+	opacity: 0;
+}
+
+.section.sectionani .animation-first,
+.section.sectionani .animation-second,
+.section.sectionani .animation-third,
+.section.sectionani .animation-fourth{
+	animation-name: opacityanima;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+}
+
+.section.sectionani .animation-second{
+	animation-delay: 1s;
+}
+
+.section.sectionani .animation-third{
+	animation-delay: 2s;
+}
+
+.section.sectionani .animation-fourth{
+	animation-delay: 3s;
+}
+
+@keyframes opacityanima{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+
 
