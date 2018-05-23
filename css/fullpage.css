@@ -7,6 +7,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	color: white;
 	background-image: url('../image/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -26,6 +27,8 @@ p{
 .first-page .first-page-message > div > .myself{
 	width: 101px;
 	height: 150px;
+	border: 5px solid #d9ffff;
+	border-radius: 5px;
 }
 
 .first-page .first-page-message > div > .code{
@@ -43,15 +46,22 @@ p{
 	font-size: 20px;
 }
 
+.second-page img,
+.third-page img,
+.fourth-page img{
+	border-radius: 5px;
+}
+
 .fourth-page a{
 	display: none;
 	text-decoration: none;
 	font-size: 20px;
-	color: black;
+	color: white;
 }
 
 .fourth-page a:hover{
 	color: red;
+	font-weight: bold;
 }
 
 #menu{ 
@@ -95,6 +105,13 @@ p{
 	opacity: 0;
 }
 
+.animation-fourth.bord{
+	color: black;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
 .section.sectionani .animation-first,
 .section.sectionani .animation-second,
 .section.sectionani .animation-third,
@@ -106,15 +123,15 @@ p{
 }
 
 .section.sectionani .animation-second{
-	animation-delay: 1s;
+	animation-delay: 0.5s;
 }
 
 .section.sectionani .animation-third{
-	animation-delay: 2s;
+	animation-delay: 1s;
 }
 
 .section.sectionani .animation-fourth{
-	animation-delay: 3s;
+	animation-delay: 1.5s;
 }
 
 @keyframes opacityanima{
