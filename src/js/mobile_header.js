@@ -81,7 +81,7 @@ class MobileHeader extends React.Component{
 
 		return (
 			<header class='mobileheader'>
-			<Link to='/page'>
+			<Link to='/'>
 			<img src='./src/image/icon.png' alt='logo'/>
 			<span>Resume</span>
 			</Link>

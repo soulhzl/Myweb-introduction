@@ -15,7 +15,7 @@ export default class Pcindex extends React.Component{
 			<main>
 			
 			<Switch>
-			<Route exact path='/page' component={PcNewsContainer}/>
+			<Route exact path='/' component={PcNewsContainer}/>
 			<Route path='/details/:uniquekey' component={PcNewsDetails}/>
 			<Route path='/usercenter' component={PcUserCenter}/>
 			</Switch>
