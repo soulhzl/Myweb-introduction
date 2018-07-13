@@ -1,9 +1,6 @@
 import React from 'react';
 import MobileHeader from './mobile_header.js';
 import MobileFooter from './mobile_footer.js';
-import MobileNews from './mobile_news.js';
-import MobileNewsDetails from './mobile_news_detail.js';
-import MobileUserCenter from './mobile_usercenter.js';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -15,9 +12,7 @@ export default class Mobileindex extends React.Component{
 			<main>
 			
 			<Switch>
-			<Route exact path='/' component={MobileNews}/>
-			<Route path='/details/:uniquekey' component={MobileNewsDetails}/>
-			<Route path='/usercenter' component={MobileUserCenter}/>
+			<Route exact path='/' component={MobileHeader}/>
 			</Switch>
 
 			</main>
