@@ -15,7 +15,7 @@ export default class Mobileindex extends React.Component{
 			<main>
 			
 			<Switch>
-			<Route exact path='/' component={MobileNews}/>
+			<Route exact path='/page' component={MobileNews}/>
 			<Route path='/details/:uniquekey' component={MobileNewsDetails}/>
 			<Route path='/usercenter' component={MobileUserCenter}/>
 			</Switch>
