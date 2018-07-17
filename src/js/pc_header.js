@@ -35,15 +35,13 @@ export default class PcHeader extends React.Component{
 		</Col>
 
 		<Col span={16}>
+		
 		<Menu mode='horizontal' onClick={this.handleClick.bind(this)} selectedKeys={[this.state.current]}>
 		<Menu.Item key="one">
-		<Icon type="appstore" />Navigation One
+		<Link to='/'><Icon type="code-o" />Resume</Link>
 		</Menu.Item>
 		<Menu.Item key="two">
-		<Icon type="appstore" />Navigation Two
-		</Menu.Item>
-		<Menu.Item key="three">
-		<Icon type="appstore" />Navigation Three
+		<Link to='/musicbox'><Icon type="sound" />Music</Link>
 		</Menu.Item>
 		</Menu>
 

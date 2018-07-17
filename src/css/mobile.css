@@ -1,7 +1,10 @@
+@charset 'utf-8';
 html{
   font-size: 50px;
 }
 
+
+/*头部*/
 .mobileheader{
   flex: 1;
   background: #f6f6f6;
@@ -20,3 +23,12 @@ html{
   color: #2db7f5;
 }
 
+
+/*个人简介*/
+.mycard p{
+  color: #030303;
+}
+
+.mycard img{
+  width: 30%;
+}
