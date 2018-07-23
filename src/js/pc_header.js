@@ -25,8 +25,10 @@ export default class PcHeader extends React.Component{
 		<Col span={2}></Col>
 
 		<Col span={4}>
+		<div class='logo'>
 		<img src='./src/image/icon.png' alt='logo'/>
 		<span>Resume</span>
+		</div>
 		</Col>
 
 		<Col span={16}>
