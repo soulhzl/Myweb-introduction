@@ -8,7 +8,7 @@ export default class PcNewsContainer extends React.Component{
 	componentDidMount(){
 		document.body.style.backgroundColor = 'white';
 	}
-	
+
 	render(){
 		const setting = {
 			dots: true,
@@ -30,7 +30,7 @@ export default class PcNewsContainer extends React.Component{
 			<div><img src='./src/image/2.jpg'/></div>
 			<div><img src='./src/image/3.jpg'/></div>
 			</Carousel>
-			<PcNewsImageBlock count={6} type='guoji' width='400px' cartTitle='国际头条' imageWidth='112px'/>
+			<PcNewsImageBlock count={6} type='guoji' width='30%' cartTitle='国际头条' imageWidth='30%'/>
 			</div>
 			</div>
 			<div class='tabs_news'>
@@ -40,7 +40,7 @@ export default class PcNewsContainer extends React.Component{
 			</TabPane>
 			</Tabs>
 			</div>
-			<PcNewsImageBlock count={14} type='yule' width='100%' cartTitle='娱乐头条' imageWidth='132px'/>
+			<PcNewsImageBlock count={14} type='yule' width='100%' cartTitle='娱乐头条' imageWidth='14%'/>
 			</Col>
 			<Col span={2}></Col>
 			</Row>
