@@ -40,6 +40,9 @@ export default class PcHeader extends React.Component{
 		<Menu.Item key="two">
 		<Link to='/musicbox'><Icon type="sound" />Music</Link>
 		</Menu.Item>
+		<Menu.Item key="three">
+		<Link to='/news'><Icon type="sound" />News</Link>
+		</Menu.Item>
 		</Menu>
 
 		</Col>
