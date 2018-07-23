@@ -5,6 +5,10 @@ import PcNewsImageBlock from './pc_news_image_block.js';
 
 const TabPane = Tabs.TabPane;
 export default class PcNewsContainer extends React.Component{
+	componentDidMount(){
+		document.body.style.backgroundColor = 'white';
+	}
+	
 	render(){
 		const setting = {
 			dots: true,
