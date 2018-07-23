@@ -12,7 +12,6 @@ export default class PcHeader extends React.Component{
 	}
 
 	handleClick(e){
-		
 			this.setState({
 				current: e.key
 			});
@@ -26,12 +25,8 @@ export default class PcHeader extends React.Component{
 		<Col span={2}></Col>
 
 		<Col span={4}>
-		<Link to='/'>
-		<a href='/' class='logo'>
 		<img src='./src/image/icon.png' alt='logo'/>
 		<span>Resume</span>
-		</a>
-		</Link>
 		</Col>
 
 		<Col span={16}>

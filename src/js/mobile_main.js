@@ -16,7 +16,7 @@ export default class MobileMain extends React.Component{
 			<Carousel {...setting}>
 			<div><img src='./src/image/gjmail.png'/></div>
 			<div><img src='./src/image/gjfile.png'/></div>
-			<div><img src='./src/image/gjweb.png'/></div>
+			<div><a target="_blank" href="http://www.g-jack.com/"><img src='./src/image/gjweb.png'/></a></div>
 			</Carousel>
 			<div class='mycard'>
 			<Card title="个人信息" bordered={true}>
