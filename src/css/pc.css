@@ -34,14 +34,13 @@
 	margin: 10px 0;
 }
 
-.left-container{
-	float: left;
-	width: 70%;
+.carousel-container{
+	width: 100%;
 	border-radius: 20px;
 	overflow: hidden;
 }
 
-.left-container img{
+.carousel-container img{
 	width: 100%;
 }
 
