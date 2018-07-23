@@ -30,7 +30,7 @@ export default class PcNewsContainer extends React.Component{
 			<div><img src='./src/image/2.jpg'/></div>
 			<div><img src='./src/image/3.jpg'/></div>
 			</Carousel>
-			<PcNewsImageBlock count={6} type='guoji' width='30%' cartTitle='国际头条' imageWidth='30%'/>
+			<PcNewsImageBlock count={6} type='guoji' width='100%' cartTitle='国际头条' imageWidth='112px'/>
 			</div>
 			</div>
 			<div class='tabs_news'>
@@ -40,7 +40,7 @@ export default class PcNewsContainer extends React.Component{
 			</TabPane>
 			</Tabs>
 			</div>
-			<PcNewsImageBlock count={14} type='yule' width='100%' cartTitle='娱乐头条' imageWidth='14%'/>
+			<PcNewsImageBlock count={14} type='yule' width='100%' cartTitle='娱乐头条' imageWidth='132px'/>
 			</Col>
 			<Col span={2}></Col>
 			</Row>
