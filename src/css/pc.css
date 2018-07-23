@@ -172,6 +172,7 @@
     text-align: left;
     font-size: 14px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .topNewsList a{
@@ -181,7 +182,7 @@
 
 .tabs_news{
     padding-left: 10px;
-    width: 63%;
+    width: 62%;
     float: left;
 }
 
@@ -191,7 +192,7 @@
     font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
-    width: 95%;
+    width: 620px;
     float: left;
     text-overflow: ellipsis;
 }
