@@ -181,7 +181,7 @@
 
 .tabs_news{
     padding-left: 10px;
-    width: 34%;
+    width: 64%;
     float: left;
 }
 
@@ -191,7 +191,7 @@
     font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
-    width: 340px;
+    width: 620px;
     float: left;
     text-overflow: ellipsis;
 }
