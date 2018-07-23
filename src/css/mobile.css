@@ -190,5 +190,5 @@ section{background:#f6f6f6;width:6.9rem}
 .m_launch_special .m_open_specail{width:100%;height:.63rem;line-height:.63rem;background-color:#eee;color:#4c9aea;text-align:center;font-size:.24rem}
 
 .tloader-footer .tloader-btn{
-  line-height: 1rem;
+  line-height: 1rem !important;
 }
